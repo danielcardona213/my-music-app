@@ -5,19 +5,19 @@ import './Styles/Login.css'
 class Login extends React.Component{
     render(){
         return( 
-            <div>
-                <div>
-                    <img src={logo}/>
-                    <form>
-                        <input type="text" name="eMail" placeholder="Correo..." />
-                        <input type="text" name="eMail" placeholder="Contraseña..." />
+            <div className ="content">
+                <div className ="login"> 
+                    <img className="logo" src={logo}/>
+                    <form className="formu">
+                        <input className="texto" type="text" name="eMail" placeholder="Correo..." />
+                        <input className="texto" type="password" name="password" placeholder="Contraseña..." />
                         <input type="Submit" name="send" value="Entrar" />
                     
                     </form>
 
 
                 </div>
-                    <button>Registrase</button>
+                    <button className="butonRegistrarse">Registrase</button>
 
 
             </div>

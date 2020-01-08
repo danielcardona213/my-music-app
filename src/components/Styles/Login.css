@@ -5,5 +5,63 @@
     margin: 0;
     padding: 0;
     font-family: 'Inria Serif', serif;
+    
 
 }
+
+.content{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: column;
+    background-color: brown;
+}
+
+.login{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.logo{
+   background-color: burlywood;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+}
+
+
+.formu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    width: 40%;
+    height: 5%;
+    background-color: aqua;
+}
+
+
+.formu .texto{
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    width: 50%;
+    height: 2.1em;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1em;
+    
+
+
+}
+
