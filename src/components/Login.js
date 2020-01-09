@@ -15,9 +15,9 @@ class Login extends React.Component{
                     
                     </form>
 
+                    <button className="btnRegistrar">Registrase</button>
 
                 </div>
-                    <button className="butonRegistrarse">Registrase</button>
 
 
             </div>
