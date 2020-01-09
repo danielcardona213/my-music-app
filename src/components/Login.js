@@ -11,12 +11,14 @@ class Login extends React.Component{
                     <form className="formu">
                         <input className="texto" type="text" name="eMail" placeholder="Correo..." />
                         <input className="texto" type="password" name="password" placeholder="Contraseña..." />
-                        <input type="Submit" name="send" value="Entrar" />
-                    
+                        
                     </form>
-
-                    <button className="btnRegistrar">Registrase</button>
-
+                    <div className="contbtn">
+                        <button className ="btn">Entrar</button>
+                    </div>
+                    <div className ="contbtn">
+                        <button className="btn">Registrase</button>
+                    </div>
                 </div>
 
 
