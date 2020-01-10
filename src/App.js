@@ -10,17 +10,18 @@ function App() {
   return (
    
    <div className="App"> 
-    
+
       
-      {/* 
+    {/*
       <div className="Login">
         <Login />
       </div>
-
+*/}
       <div className="registro">
         <Register  /> 
       </div>
-     */}
+    
+
     </div>
     
 
