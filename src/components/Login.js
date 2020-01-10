@@ -1,5 +1,7 @@
 import React from 'react';
 import './Styles/Login.css';
+import Form from '../components/Form';
+import Logo from '../Imagenes/Logo.png'
 
 class Login extends React.Component{
     render(){
@@ -8,20 +10,12 @@ class Login extends React.Component{
                 <div className ="content">
                     <div className ="login"> 
                        
-                        
+                            <img src ={Logo}  className="logo"/>
                             <h1>My music</h1>
                             <h3>Login</h3>
                         
-                        <form className="formL">
-                            
-                            <input className="textoL" type="text" name="eMail" placeholder="Correo..." />
-                            <input className="textoL" type="password" name="password" placeholder="Contraseña..." />
-                            
-
-                            <div className="contbtnL">
-                            <button className ="btnL">Entrar</button>
-                            </div>
-                        </form>
+                        <Form />
+                        
 
                         <div className ="regiContL">
                             <article>Si no tiéne cuenta, puedes Registrarte</article>

@@ -1,7 +1,8 @@
 
-import React from 'react'
-import '../components/Styles/Register.css'
-
+import React from 'react';
+import '../components/Styles/Register.css';
+import Logo from '../Imagenes/Logo.png';
+import Form from './Form';
 
 
 class Register extends React.Component{
@@ -11,21 +12,14 @@ class Register extends React.Component{
 
             <div className = "Container">
                 <div className="Registro">
-
                     
-                    <div className="elements">
-                        
+                        <img src={Logo} className="logo"/>
                         <h2>My music</h2>
                         <h3>Registrarse</h3>
 
-                    </div>
-                    <form className ="form">
-                        <input className ="texto" type ="text" name ="email" placeholder="Correo..." />
-                        <input className ="texto" type ="password" name ="pass" placeholder ="Contraseña..."/>
-                        <br/>
-                        <button className="btn">Registrarse</button>
-                    </form>
-                    <div className="contBtnR">
+                    <Form />
+                    
+                    <div className="btnRregis">
                         <button className="btn">Regresar</button>
                     </div>
                 </div>
